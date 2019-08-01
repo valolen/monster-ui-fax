@@ -1,92 +1,92 @@
 {
 	"fax": {
-		"title": "Fax Portal",
+		"title": "Portal de fax",
 		"menuTitles": {
-			"inbound": "Inbound faxes",
-			"outbound": "Outbound faxes",
-			"logs": "Email-to-Fax Logs",
-			"storage": "Storage"
+			"inbound": "Faxes entrantes",
+			"outbound": "Faxes salientes",
+			"logs": "Registros de correo electrónico a fax",
+			"storage": "Almacenar"
 		},
 		"table": {
 			"columns": {
-				"status": "Status",
-				"sent": "Date",
-				"sendingFaxbox": "Sending Faxbox",
-				"sendingNumber": "Sending Number",
-				"received": "Received",
-				"receivingFaxbox": "Receiving Faxbox",
-				"receivingNumber": "Receiving Number",
-				"pages": "Pages",
-				"from": "From"
+				"status": "Estado",
+				"sent": "Fecha",
+				"sendingFaxbox": "Enviando Faxbox",
+				"sendingNumber": "Número de envÌo",
+				"received": "Recibido",
+				"receivingFaxbox": "Recibiendo Faxbox",
+				"receivingNumber": "Número de recepción",
+				"pages": "P·ginas",
+				"from": "Desde"
 			},
-			"emptyRow": "There are no faxes listed under this Fax Box",
+			"emptyRow": "No hay faxes enumerados en esta casilla de fax",
 			"status": {
-				"success": "Success",
-				"processing": "Processing",
-				"failed": "Failed",
-				"pending": "Pending",
-				"completed": "Completed"
+				"success": "Éxito",
+				"processing": "Procesando",
+				"failed": "Falló",
+				"pending": "Pendiente",
+				"completed": "Completedado"
 			},
 			"noData": "N/A"
 		},
 		"empty": {
-			"headline1": "There are",
-			"headline2": "faxboxes recognized on this account",
-			"subHeadlineInbound": "Select a box to manage the inbound faxes it contains.",
-			"subHeadlineOutbound": "Select a box to manage the outbound faxes it sent."
+			"headline1": "Hay",
+			"headline2": "faxboxes reconocidos en esta cuenta",
+			"subHeadlineInbound": "Seleccione un cuadro para administrar los faxes entrantes que contiene.",
+			"subHeadlineOutbound": "Seleccione un cuadro para administrar los faxes salientes que envió."
 		},
 		"actionBar": {
-			"refresh": "Refresh",
+			"refresh": "Refrescar",
 			"select": {
-				"all": "All on page",
-				"failed": "Failed",
-				"completed": "Completed",
-				"none": "None"
+				"all": "Todo en la p·gina",
+				"failed": "Falló",
+				"completed": "Completedado",
+				"none": "Ninguno"
 			},
 			"selectFaxbox": {
-				"none": "Select a Fax Box"
+				"none": "Seleccione un buzón de fax"
 			},
-			"from": "From",
-			"to": "To",
-			"markAsNew": "Mark as New",
+			"from": "Desde",
+			"to": "A",
+			"markAsNew": "Marcar como nuevo",
 			"tooltips": {
-				"refresh": "Refresh",
-				"select": "Select",
-				"resend": "Resend",
-				"delete": "Delete"
+				"refresh": "Refrescar",
+				"select": "Seleccionar",
+				"resend": "Reenviar",
+				"delete": "Eliminar"
 			},
-			"currentlyViewing": "Currently Viewing",
-			"filterByDate": "Filter By Dates"
+			"currentlyViewing": "Actualmente viendo",
+			"filterByDate": "Filtrar por fechas"
 		},
 		"CDRPopup": {
-			"title": "Fax Details"
+			"title": "Detalles de fax"
 		},
 		"deleteConfirm": {
-			"content": "Deleting the {{variable}} selected faxes(s) will permanently remove them from the system. This action can not be undone or reversed, and the affected files will be gone forever.",
-			"title": "Are you sure?",
-			"confirmButtonText": "Delete Selected Files",
-			"success": "You successfully deleted the selected faxes from the system!"
+			"content": "Si elimina los {{variables}} faxes seleccionados, los eliminar· permanentemente del sistema. Esta acción no se puede deshacer ni revertir, y los archivos afectados desaparecer·n para siempre.",
+			"title": "Est·s seguro?",
+			"confirmButtonText": "Eliminar archivos seleccionados",
+			"success": "°Eliminó con Èxito los faxes seleccionados del sistema!"
 		},
 		"resendConfirm": {
-			"content": "You are attempting to redeliver {{variable}} faxes. Are you sure you want to attempt re-delivery?",
-			"confirmButtonText": "Re-send Faxes",
-			"title": "Are you sure?",
-			"success": "You successfully tried to re-send the selected faxes!"
+			"content": "Est· intentando volver a entregar faxes {{variable}}. øEst·s seguro de que quieres intentar una nueva entrega?",
+			"confirmButtonText": "Reenviar faxes",
+			"title": "Est·s seguro?",
+			"success": "°Intentó con Èxito volver a enviar los faxes seleccionados!"
 		},
 
 
 		"logs": {
 			"tableTitles": {
-				"from": "From",
-				"to": "To",
-				"date": "Date",
-				"details": "Details",
-				"status": "Status"
+				"from": "Desde",
+				"to": "A",
+				"date": "Fecha",
+				"details": "Detalles",
+				"status": "Estado"
 			},
 			"detailDialog": {
-				"popupTitle": "Technical Details",
-				"metadataTitle": "Metadata",
-				"errorTitle": "Error(s)",
+				"popupTitle": "Detalles tÈcnicos",
+				"metadataTitle": "Metadatos",
+				"errorTitle": "Error(es)",
 				"apiKeys": {
 				}
 			}
